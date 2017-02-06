@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+  <title>Oops!</title>
+
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+  <style>
+
+  </style>
+
+</head>
+<nav class="menu" id="theMenu">
+  <div class="menu-wrap">
+    <h1 class="logo"><a href="index.html">Home</a></h1>
+    <i class="fa fa-times menu-close"></i>
+  </div>
+
+  <div id="menuToggle"><i class="fa fa-bars"></i></div>
+</nav>
+<div align="center">
+  <h1>50x Error: </h1>
+  <hr>
+
+  <div name="error" id="error">
+      <u><strong>The server encountered a temporary error and could not complete your request.</strong></u>
+  </div>
+</div>
+<div style="margin-left:2em" align="center">
+<br>
+    
+  <p>Please try again in <b>30 seconds</b>. If the problem persists, please contact the site admin at <a href="mailto:jainilsutaria.com">jainilsutaria1@gmail.com</a>!</p>
+</div>
+<br>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/smoothscroll.js"></script>
+<script src="assets/js/jquery.stellar.min.js"></script>
+<script src="assets/js/fancybox/jquery.fancybox.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+  $(function() {
+    $.stellar({
+      horizontalScrolling: false,
+      verticalOffset: 40
+    });
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+
+    jQuery(".fancybox").fancybox();
+  });
+</script>
+
+</html>
